@@ -1,0 +1,24 @@
+# Claude Code ローカル設定（個人環境固有）
+.claude/settings.local.json
+
+# OS が生成するファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# Office 一時ファイル（Word/Excel/PowerPoint の編集中ロック）
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# エディタのバックアップ・一時ファイル
+*.bak
+*.swp
+*.swo
+*~
+
+# 中間圧縮ファイル
+*.zip.tmp
+*.tar.gz.tmp

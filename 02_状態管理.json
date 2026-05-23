@@ -1,0 +1,57 @@
+{
+  "project_name": "科研費 基盤C・若手研究 調書作成PJT",
+  "version": "1.0",
+  "category": null,
+  "current_step": "Step1",
+  "completed_steps": [],
+  "last_updated": "2026-05-21T00:00:00+09:00",
+  "step_status": {
+    "Step1": {
+      "status": "not_started",
+      "substeps": {
+        "1-1_persona_brandvoice": "pending",
+        "1-2_kaken_mcp": "pending",
+        "1-3_pubmed_mcp": "pending",
+        "1-4_theme_brainstorm": "pending",
+        "1-5_self_citation_search": "pending"
+      },
+      "final_theme": null,
+      "self_citation_count": 0
+    },
+    "Step2": {
+      "status": "not_started",
+      "substeps": {
+        "2-1_period": "pending",
+        "2-2_research_items": "pending",
+        "2-3_milestones": "pending",
+        "2-4_gantt": "pending"
+      },
+      "period_years": null,
+      "milestones_count": 0
+    },
+    "Step3": {
+      "status": "not_started",
+      "substeps": {
+        "3-1_guideline_read": "pending",
+        "3-2_subheadings": "pending",
+        "3-3_draft_purpose": "pending",
+        "3-4_draft_methods": "pending",
+        "3-5_readability_check": "pending",
+        "3-6_self_citation_check": "pending"
+      },
+      "estimated_char_count": null
+    },
+    "Step4": {
+      "status": "not_started",
+      "substeps": {
+        "4-1_concept": "pending",
+        "4-2_prompts": "pending"
+      },
+      "prompts_count": 0
+    }
+  },
+  "notes": [
+    "PJTセットアップ完了。次のClaude起動時はこの02_状態管理.jsonを最初に読み、current_stepから作業を再開すること。",
+    "2026-05-21: ブラッシュアップ実施。CLAUDE.md に R11(平易化)/R12(英語抑制)/R13(自己引用) を追加。Step1 に「1-5_self_citation_search」(PubMedで著者第一著者論文を探索→ユーザー合意)、Step3 に「3-5_readability_check」「3-6_self_citation_check」を追加。Step3 注意事項(31/32)に平易化ガイドと自己引用織り込みガイドを追記。13_テーマ候補メモ.md に「自己引用候補」セクションを新設。"
+  ]
+}
